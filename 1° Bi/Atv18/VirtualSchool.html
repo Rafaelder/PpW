@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Escola virtual</title>
+</head>
+
+<body style="margin: 0% 10% 0% 10%;">
+    <fieldset>
+        <form method="get">
+            <h1 align="center">Escola Virtual</h1>
+            <h2 align="center">Formulário de Pré-Matrícula</h2>
+            <hr>
+            <table border="1px" width="100%">
+                <tr>
+                    <td>
+                        <strong>Dados Pessoais:</strong>
+                        <table width="90%" align="center">
+                            <tr>
+                                <td align="center">
+                                    Nome do Aluno: <input size="50%" type="text" name="alName" maxlength="40">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Nascimento (dd/mm/aaaa): <input size="5%" type="text" inputmode="numeric" maxlength="2" name="dd">/
+                                    <input size="5%" type="text" inputmode="numeric" maxlength="2" name="mm">/
+                                    <input size="8%" type="text" inputmode="numeric" maxlength="4" name="aa">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="center">
+                                    Nome da Mãe: <input size="50%" type="text" name="mthrName" maxlength="40">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="center">
+                                    Nome do Pai: <input size="50%" type="text" name="fthrName" maxlength="40">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="right">
+                                    Telefone: DDD(<input size="5%" type="text" inputmode="numeric" name="ddd" maxlength="2">)
+                                    Tel: <input size="15%" type="text" inputmode="numeric" maxlength="9" name="tel">
+                                    Ramal: <input size="10%" type="text" inputmode="numeric" maxlength="4" name="rml">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="center">
+                                    E-Mail: <input size="50%" type="text" name="mail">
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <strong>Informações de Matrícula:</strong>
+
+                        <table width="100%">
+                            <tr>
+                                <td style="vertical-align: top;">
+                                    Série:
+                                    <br>
+                                    <select name="serie">
+                                        <option value="pré">Pré-escolar</option>
+                                        <option value="1">1º ano</option>
+                                        <option value="2">2º ano</option>
+                                        <option value="3">3º ano</option>
+                                        <option value="4">4º ano</option>
+                                        <option value="5">5º ano</option>
+                                    </select>
+                                </td>
+                                <td style="vertical-align: top;">
+                                    Turno:
+                                    <br>
+                                    <input type="radio" name="turn">Manhã
+                                    <br>
+                                    <input type="radio" name="turn">Tarde
+                                </td>
+                                <td style="vertical-align: top;">
+                                    Atividades Extracurriculares:
+                                    <br>
+                                    <input type="checkbox" name="extraAtv">Informática
+                                    <br>
+                                    <input type="checkbox" name="extraAtv">Música
+                                    <br>
+                                    <input type="checkbox" name="extraAtv">Balet
+                                    <br>
+                                    <input type="checkbox" name="extraAtv">Pintura
+                                    <br>
+                                    <input type="checkbox" name="extraAtv">Judô
+                                    <br>
+                                    <input type="checkbox" name="extraAtv">Futebol
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+            <p align="center">
+                <input type="submit" name="enviar" value="Enviar Formulário">
+                <input type="reset" name="limpar" value="Limpar Campos">
+            </p>
+        </form>
+    </fieldset>
+
+</body>
+
+</html>

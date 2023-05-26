@@ -1,0 +1,53 @@
+body{
+    text-align: center;
+    color: white;   
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.fundo{    
+    background:
+    linear-gradient(
+        rgba(0,0,0, 0.6),
+        rgba(0,0,0, 0.6)
+    ),
+     url(fundo.jpg);
+    
+}
+
+.spco{
+    word-spacing: 25px; 
+    font-size: 19px;
+    margin-bottom: 5%;
+}
+table{
+    margin:auto;
+    width: 90%;
+}
+
+.left{
+    text-align: left;
+}
+
+.text1{
+    font-size: 50px;   
+}
+
+.text2{
+    font-size: 20px;
+    text-align: justify;
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 0px;
+}
+button{
+    width: 25%;
+    height: 50px;
+    border-radius: 5px;
+    font-weight: bolder;
+}
+.button1{
+    background-color:rgb(47, 141, 248);
+    color: white;
+}
+
+

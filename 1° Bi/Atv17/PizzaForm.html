@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> Formulário - Cadastro Pizza</title>
+</head>
+
+<body text="maroon" style="margin: 0% 5% 0% 5%;">
+    <fieldset>
+        <img width="100%" src="topo.png">
+    </fieldset>
+    <fieldset>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="icone_pizza.gif">  Cadastre-se e receba nossas atualizaões <br> <br>
+        <hr color="red">
+        <form method="GET">
+            <table align="center" border="1px">
+                <tr>
+                    <td align="right" >Nome:</td>
+                    <td width=60%>
+                        <fieldset> <input type="text" name="txt_nome" maxlength="20"> </fieldset>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">Senha:</td>
+                    <td>
+                        <fieldset> <input type="password" name="pass1"> </fieldset>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">Confirmação de senha:</td>
+                    <td>
+                        <fieldset> <input type="password" name="pass2"> </fieldset>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">Seu tipo de Pizza preferido:</td>
+                    <td>
+                        <fieldset> 
+                            <select size="1" >
+                                <option value="marg"> Marguerita
+                                <option value="mussa"> Mussarela
+                                <option value="port"> Portuguesa
+                                <option value="calab"> Calabresa
+                                <option value="tosc"> Toscana
+                                <option value="peppe"> Pepperoni
+                                <option value="4queij"> Quatro queijos
+                                <option value="pomod"> Pomodoro
+                            </select>
+                        </fieldset>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">Quantas vezes come Pizza por semestre?</td>
+                    <td>
+                        <fieldset> <input name="num" type="radio" value="1">Entre 1 a 5<br>
+                            <input name="num" type="radio" value="2"> 5 a 10 <br>
+                            <input name="num" type="radio" value="3"> Mais de 10
+                        </fieldset>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">Comentário:</td>
+                    <td>
+                        <textarea cols="50" rows="4"> </textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="center" colspan="2"> <input type="checkbox" name="chckbox"> Deseja receber e-mails do nossos parceiros
+                    </td>
+                </tr>
+                <tr>
+                    <td align="center" colspan="2"> <input type="submit" name="btn_Enviar" value="Enviar"> <input
+                            type="reset" name="btn_Limpar" value="Limpar"></td>
+                </tr>
+            </table>
+        </form>
+        <hr color="red">
+        <br> 
+    </fieldset>
+    <fieldset>
+        <font face="courier" size="3"><p align="center"><u >www.pizzaonline.com.br</u></p></font>
+    </fieldset>
+    <fieldset>
+        <img width="100%" src="topo.png">
+    </fieldset>
+
+
+</body>
+
+</html>

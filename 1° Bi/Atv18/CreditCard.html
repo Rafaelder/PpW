@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Cartão de credito </title>
+</head>
+
+<body>
+    <form method="get">
+        <h3>
+        <table border="1px" cellpadding="10%" align="center">
+            <tr>
+                <td>
+                    Número:
+                </td>
+                <td>
+                    <input type="text" inputmode="numeric" maxlength="16" name="num_card">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Bandeira:
+                </td>
+                <td>
+                    <input type="radio" name="flag">
+                    <img align="center" src="visa.jpg">
+                    <br>
+                    <input type="radio" name="flag">
+                    <img align="center" src="master.jpg">
+                    <br>
+                    <input type="radio" name="flag">
+                    <img align="center" src="american.jpg">
+                </td>
+            <tr>
+                <td>
+                    Validade:
+                </td>
+                <td>
+                    <select name="val">
+                        <option value="12"> 2012 </option>
+                        <option value="13"> 2013</option>
+                        <option value="14"> 2014</option>
+                        <option value="15"> 2015</option>
+                    </select>
+                </td>
+            </tr>
+        </table>
+        </h3>
+    </form>
+
+</body>
+
+</html>
