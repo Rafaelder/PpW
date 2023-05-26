@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+    color: rgb(6, 6, 154) ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo{
+    background-image: url(logo.png);
+    background-repeat: no-repeat;
+    background-size: 70% 100%;
+    background-position-x: center;
+    width: 60%;
+    height: 100%;
+    position: absolute;
+    left: 20%;
+}
+
+.cabeçalho {   
+    width: 100%;
+    height: 13%; 
+    background-color: rgba(127, 255, 212, 0.093);   
+    top: 0;
+    position: absolute;
+}
+
+.conteudo {
+    border-top: 1px black solid;
+    width: 100%;
+    position: absolute;
+    top: 13%;
+}
+
+.alicentral{
+    text-align: center;
+}
+
+.imgs{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5%;
+    margin: 0.5% 10% 0.5% 28%;
+}
+
+ol{
+    font-weight: bold;
+    color: blue;
+    margin: 0;
+}
+
+span{
+    text-decoration: underline;
+    color: darkblue;
+    font-weight: bolder;
+}
+
+p{
+    padding: 0 1% 0 1% ;
+    margin-top: 0;
+}
+
+hr{
+    width: 90%;
+    border: 3px blue solid;
+}
