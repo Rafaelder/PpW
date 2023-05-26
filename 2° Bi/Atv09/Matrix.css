@@ -1,0 +1,48 @@
+body {
+    color: lightgreen;
+    background-color: black;
+    text-align: center;
+}
+
+.fundoneo {
+    background-image: url(matrix/fundo_neo.jpg);
+    background-size: 10%;
+    background-position: right;
+    background-repeat: repeat-y;
+}
+
+table {
+    width: 100%;
+    text-align: justify;
+}
+
+p {
+    font-size: 22px;
+    text-indent: 50px;
+    font-family: verdana;
+    width: 92%;
+}
+
+h2 {
+    font-family: arial;
+    color: white;
+    background-image: url(matrix/fundo_matrix.jpg);
+    font-style: italic;
+    font-weight: lighter;
+    width: 92%;
+    font-size: 50px;
+}
+
+.ttlesquerda {
+    margin-top: 0;
+    text-align: left;
+}
+
+.ttldireita {
+    margin-bottom: 0;
+    text-align: right;  
+}
+
+img {
+    width: 20%;
+}

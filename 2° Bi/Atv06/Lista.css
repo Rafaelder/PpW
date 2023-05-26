@@ -1,0 +1,34 @@
+body {
+    color: #333388;
+    font-family: verdana;
+    font-size: 15px;
+    margin: 1px 20%;
+}
+
+ul.quadrado {
+    list-style-type: square;
+}
+
+ul.bolavazia {
+    list-style-type: circle;
+}
+
+ul.bolacheia {
+    list-style-type: filled circle;
+}
+
+ul.playimg {
+    list-style-image: url(imagens/seta_azul.gif);
+}
+
+ol.numordem {
+    list-style-type: numeric;
+}
+
+ol.roman {
+    list-style-type: lower-roman;
+}
+
+ol.alphabet {
+    list-style-type: lower-alpha;
+}

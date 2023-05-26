@@ -1,0 +1,51 @@
+body {
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+    letter-spacing:0;
+    font-family: arial,sans-serif;
+    text-align: center;
+}
+p.direita{
+    margin-right: 5%;
+    text-align: right;
+}
+p.gugli {
+    font-family:'Segoe UI', Tahoma, sans-serif;
+    margin-top: 12%;    
+}
+
+.blue {
+    color: #1b6ef3ff;
+    font-size: 90px;
+}
+
+.red {
+    color: #ff0000ff;
+    font-size: 90px
+}
+
+.yellow {
+    color: rgb(250, 166, 20);
+    font-size: 90px
+}
+
+.green {
+    color: #1ea446ff;
+    font-size: 90px
+}
+
+input{
+    border:1px solid;
+    border-radius: 20px;
+    height: 30px;
+    width: 30%;  
+}
+
+button{
+    font-family: arial,sans-serif;
+    margin-top: 1%;
+    width: 10%;
+    height: 40px;
+    background-color: rgba(216, 213, 213, 0.2);
+    border: 0;
+}
