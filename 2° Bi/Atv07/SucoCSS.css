@@ -1,0 +1,24 @@
+body{
+    font-family: arial;
+    color: #007e7e;
+    margin: 1px 20%;
+}
+hr{
+    color:#007e7e;
+}
+.verde{
+    color: green;
+}
+.azul{
+    color: blue;
+}
+.roxo{
+    color: purple;
+}
+.marron{
+    color: maroon;
+}
+.cinzacentro{
+    color: gray;
+    text-align: center;
+}

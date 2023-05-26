@@ -1,0 +1,28 @@
+*{
+    color: white !important;
+}
+.bgbar{
+    background-color: black !important;
+   
+}
+
+img{
+    width: 300px;
+    margin-bottom: 5%;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5%;
+    margin:10% 19%;
+}
+
+.navbar-nav{
+    margin-left: 85%;
+}
+
+.bgicon{
+    background-color: white;
+    border-radius: 10%;
+}

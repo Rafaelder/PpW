@@ -1,0 +1,41 @@
+body{
+    font-family: arial !important;
+    background-color: whitesmoke;
+}
+nav{
+    background-color: rgb(20, 123, 72);
+}
+span{
+    font-weight: bold !important;
+    color: white !important;
+}
+h3{
+    font-weight: bold !important;
+    color: rgb(20, 123, 72);
+}
+hr{
+    height: 2px;
+    border-color: black !important;
+    background-color: black !important;
+    margin: 0;
+    padding: 0;
+}
+label{
+    margin-top: 2% !important;
+    margin-bottom: 0 !important;
+}
+
+button{
+    margin-top: 2%;
+}
+
+.blocop{
+    background-color: white;
+    margin: 2% 30% 2%;
+    border-width: 1px;
+    border-radius: 8px;
+    border-color: black;
+    box-shadow: 3px 8px 10px gray;
+    padding: 1%;
+}
+
