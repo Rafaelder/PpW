@@ -1,0 +1,21 @@
+body{
+    margin: 10% 30%;
+}
+
+h2{
+    color: rgba(0, 89, 255, 0.822);
+    font-weight: lighter;
+}
+
+button{
+    width: 65px;
+    height: 25px;
+}
+
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;    
+}
+input[type=number] { 
+   -moz-appearance: textfield;
+   appearance: textfield;
+}
