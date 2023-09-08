@@ -1,0 +1,14 @@
+td{
+    width: 20%;
+    text-align: center;
+}
+img{
+    width: 180px;  
+}
+img.inverter{
+    transform: scaleX(-1);  
+}
+
+p{
+    font-size: 30px;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calcular IMC</title>
+    <link rel="stylesheet" href="IMCcalc.css">
+</head>
+<body>
+    <h1 class="titulo"><u>Calcule seu IMC</u></h1>
+    <div class="blocos">
+    <form action="post"></form>
+    <div class="bloco1">
+        Nome e Sobrenome <br>
+        <input id="nome" type="text" placeholder="Digite seu nome"> <br>
+        Idade <br>
+        <input id="idade" type="number" placeholder="Digite sua idade">  <br>
+        Peso <br>
+        <input id="peso" type="number" required placeholder="Digite seu peso em kg"><br>
+        Altura <br>
+        <input id="altu" type="number" placeholder="Digite sua altura em metros ex.: 1.90"><br>
+        <button onclick="imc()" >Enviar Formulário</button>
+    </div>
+    <div class="bloco2">
+        
+        <h1 class="result">Resultado aqui!</h1>
+        Índice, classificação e Riscos!
+        <h2><u><span id="resultado"></span></h2></u> 
+        <h3 id="1"><  18.5  ---------  Abaixo do Peso Ideal</h3>  
+        <h3 id="2">18.5 < 25  ---------  Normal</h3>
+        <h3 id="3">25 < 30  ---------  Excesso de Peso</h3>
+        <h3 id="4">30 < 35  ---------  Obesidade I</h3>
+        <h3 id="5">> 35  ---------  Obesidade II</h3>
+    </div>
+</div>
+
+<script src="script.js" type="text/javascript" > </script>
+</body>
+</html>

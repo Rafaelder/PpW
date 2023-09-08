@@ -1,0 +1,68 @@
+.bloco1{
+    padding: 2%;
+    margin: 2%;
+    text-align: center;
+    width: 40%;
+    height: 350px;
+    background-color: whitesmoke;
+}
+
+.bloco2{
+    padding: 2%;
+    margin: 2%;
+    text-align: center;
+    width: 40%;
+    height: 350px;
+    background-color: lightblue;
+    position: relative;
+    float: right; 
+}
+
+.blocos{
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2%;
+}
+
+.titulo{
+    font-size: 250%;
+    text-align: center;
+    margin-top: 5%;
+}
+.result{
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+@media (max-width: 768px) {
+    .bloco1, .bloco2{
+        width: 100%; /* Ocupar toda a largura quando a tela for menor que 768px */
+        float: none; /* Remove o float */
+    }
+}
+
+input{
+    margin-top: 1%;
+    margin-bottom: 5%;
+    border: none;
+    background-color: whitesmoke;
+    border-bottom: 1px solid black;
+    width: 50%;
+}
+input:focus{
+    box-shadow: 0 0 0 0;
+    border: 0 1px 0 0 none;
+    outline: 0;
+} 
+
+button{
+    color: white;
+    background-color: black;
+    width: 35%;
+    height: 40PX;
+    border-width: 1px;
+    border-radius: 100px;
+    border-color: gray;
+    box-shadow: 3px 4px 4px 0px  gray;
+}
