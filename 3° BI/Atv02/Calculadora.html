@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <script src="calculadora.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="calculadora.css">
+</head>
+<body>
+    <div>
+    <fieldset>
+        <legend>Calculadora</legend>
+        Valor 1:
+        <input type="number" class="v1"> <br/>
+        Valor 2:
+        <input type="number" class="v2"> <br/> <br>
+        <button onclick="soma()" >+</button>
+        <button onclick="subt()">-</button>
+        <button onclick="multi()">*</button>
+        <button onclick="divi()">/</button>
+    </fieldset>
+    <fieldset>
+        <legend>Resultado</legend>
+         <span class="resultado"></span>
+    </fieldset>
+    </div>
+</body>
+</html>
