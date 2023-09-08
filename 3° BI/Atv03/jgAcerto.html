@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo de Acerto</title>
+    <link rel="stylesheet" href="jgAcerto.css">
+    <script src="./jgAcerto.js"></script>
+</head>
+<body>
+    <h1>Jogo de Acerto</h1> <br>
+    Digite um número entre 1 e 20
+    <input type="number" class="num"> <br>
+    <button class="botao" onclick="verificar(); resetar()" >Verificar</button>
+    <fieldset>
+        <legend>Resultado</legend>
+        <h2 class="resultado"></h2>
+        Número Digitado: <span class="num_digitado"></span> <br>
+        Números Sorteados: <span class="num_sorteados"></span>
+    </fieldset>
+</body>
+</html>
