@@ -1,0 +1,35 @@
+body{
+    width: 100%;
+}
+
+.corpo{
+    margin-left: 38%;
+    margin-top: 10%;
+}
+h1{
+ margin-left: 10%;
+}
+input{
+    margin-bottom: 5%;
+    border: none;
+    border-bottom: 1px solid black;
+    width: 20%;
+    margin-left: 5%;
+}
+
+.button{
+    color: white;
+    background-color: rgba(10, 140, 10, 0.59);
+    width: 15%;
+    height: 30PX;
+    border-width: 1px;
+    border-radius: 100px;
+    margin-left: 8%;
+    box-shadow: 5px 2px 5px green;
+}
+
+ul{
+    color: green;
+    margin-left: 4%;
+    margin-top: 10%;
+}
