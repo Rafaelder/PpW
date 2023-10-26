@@ -8,12 +8,9 @@ function login(){
     }
     console.log(user, pass);
 }
-<<<<<<< HEAD
 
 function imc(){  
     peso = document.form.peso.value;
     altu = document.form.altu.value;
     document.getElementById(".resultato").innerHTML = ("resultado: " + peso/ altura^2)
 }
-=======
->>>>>>> main
