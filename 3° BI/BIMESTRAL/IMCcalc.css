@@ -1,0 +1,21 @@
+.bloco1{
+    padding: 2%;
+    margin: 2%;
+    width: 40%;
+    height: 350px;
+    background-color: whitesmoke;
+    position: relative;
+    float: left;
+
+}
+.bloco2{
+    padding: 2;
+    margin: 2;
+    text-align: center;
+    margin: 2%;
+    width: 40%;
+    height: 350px;
+    background-color: lightblue;
+    position: relative;
+    float: right;
+}
