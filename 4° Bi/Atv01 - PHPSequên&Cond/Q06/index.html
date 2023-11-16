@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cálculo da Média de Aproveitamento</title>
+</head>
+<body>
+    <h1>Calculo da Media de Aproveitamento</h1>
+    <form action="calcular_media.php" method="post">
+        <label for="id">Numero de Identificacao:</label>
+        <input type="number" name="id" id="id" required>
+        <br><br>
+        <label for="nota1">Nota 1:</label>
+        <input type="number" name="nota1" id="nota1" step="0.1" required>
+        <br><br>
+        <label for="nota2">Nota 2:</label>
+        <input type="number" name="nota2" id="nota2" step="0.1" required>
+        <br><br>
+        <label for="nota3">Nota 3:</label>
+        <input type="number" name="nota3" id="nota3" step="0.1" required>
+        <br><br>
+        <label for="media_exercicios">Media dos Exercicios:</label>
+        <input type="number" name="media_exercicios" id="media_exercicios" step="0.1" required>
+        <br><br>
+        <input type="submit" value="Calcular Media de Aproveitamento">
+    </form>
+</body>
+</html>

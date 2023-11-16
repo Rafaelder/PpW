@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculadora de Novo Salario</title>
+</head>
+<body>
+    <h1>Calculadora de Novo Salario</h1>
+    <form action="calcular_salario.php" method="post">
+        <label for="salario">Salario atual:</label>
+        <input type="number" name="salario" id="salario" required>
+        <br><br>
+        <label for="cargo">Cargo do funcionario:</label>
+        <select name="cargo" id="cargo" required>
+            <option value="gerente">Gerente</option>
+            <option value="engenheiro">Engenheiro</option>
+            <option value="tecnico">Tecnico</option>
+            <option value="outro">Outro</option>
+        </select>
+        <br><br>
+        <input type="submit" value="Calcular Novo Salario">
+    </form>
+</body>
+</html>
